@@ -1,10 +1,11 @@
-name = "leanps"
+name = "lean_problem_solving"
 version = "0.1.0"
-defaultTargets = ["leanps"]
+defaultTargets = ["ProblemSolving"]
 
 [[lean_lib]]
-name = "Leanps"
+name = "ProblemSolving"
 
 [[lean_exe]]
-name = "leanps"
-root = "Main"
+name = "helloworld"
+srcDir = "examples"
+root = "HelloWorld"
