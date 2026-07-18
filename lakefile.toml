@@ -7,5 +7,5 @@ name = "ProblemSolving"
 
 [[lean_exe]]
 name = "helloworld"
-srcDir = "examples"
+srcDir = "examples/helloworld"
 root = "HelloWorld"
