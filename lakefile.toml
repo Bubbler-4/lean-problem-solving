@@ -1,0 +1,10 @@
+name = "leanps"
+version = "0.1.0"
+defaultTargets = ["leanps"]
+
+[[lean_lib]]
+name = "Leanps"
+
+[[lean_exe]]
+name = "leanps"
+root = "Main"
