@@ -2,6 +2,11 @@ name = "lean_problem_solving"
 version = "0.1.0"
 defaultTargets = ["ProblemSolving"]
 
+[[require]]
+name = "Parser"
+git = "https://github.com/fgdorais/lean4-parser"
+rev = "2e4408dd6a314d4b811b15f8c1b2d7041d800c38"
+
 [[lean_lib]]
 name = "ProblemSolving"
 
@@ -9,3 +14,8 @@ name = "ProblemSolving"
 name = "helloworld"
 srcDir = "examples/helloworld"
 root = "HelloWorld"
+
+[[lean_exe]]
+name = "aplusb"
+srcDir = "examples/aplusb"
+root = "APlusB"
