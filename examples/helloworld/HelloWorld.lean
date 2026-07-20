@@ -1,4 +1,13 @@
 import ProblemSolving
 
+/-!
+# Hello World
+
+Print `Hello, world!`.
+
+* Input: none
+* Output: the string `Hello, world!`
+-/
+
 def main : IO Unit :=
-  IO.println s!"Hello, {hello}!"
+  IO.println "Hello, world!"
