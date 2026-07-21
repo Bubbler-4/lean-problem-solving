@@ -14,10 +14,10 @@ open Parser Char
 
 /-- Parse two natural numbers separated by whitespace. -/
 def parseAPlusB : SimpleParser String.Slice Char (Nat × Nat) := do
+  let _ ← dropMany ASCII.whitespace
   let a ← ASCII.parseNat
   let _ ← dropMany ASCII.whitespace
   let b ← ASCII.parseNat
-  let _ ← dropMany ASCII.whitespace
   return (a, b)
 
 def main : IO Unit := do
