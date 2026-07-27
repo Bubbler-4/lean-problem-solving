@@ -1,11 +1,10 @@
 name = "lean_problem_solving"
 version = "0.1.0"
-defaultTargets = ["ProblemSolving"]
+defaultTargets = ["ProblemSolving", "helloworld"]
 
 [[lean_lib]]
 name = "ProblemSolving"
 
 [[lean_exe]]
 name = "helloworld"
-srcDir = "examples/helloworld"
-root = "HelloWorld"
+root = "examples.HelloWorld"
