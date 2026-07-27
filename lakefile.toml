@@ -13,3 +13,4 @@ root = "examples.HelloWorld"
 [[lean_exe]]
 name = "example_test"
 root = "examples.tests.ExampleTest"
+needs = ["helloworld"]
