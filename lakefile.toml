@@ -1,6 +1,7 @@
 name = "lean_problem_solving"
 version = "0.1.0"
 defaultTargets = ["ProblemSolving", "helloworld"]
+testDriver = "example_test"
 
 [[lean_lib]]
 name = "ProblemSolving"
@@ -8,3 +9,7 @@ name = "ProblemSolving"
 [[lean_exe]]
 name = "helloworld"
 root = "examples.HelloWorld"
+
+[[lean_exe]]
+name = "example_test"
+root = "examples.tests.ExampleTest"
