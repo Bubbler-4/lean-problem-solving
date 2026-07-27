@@ -1,6 +1,6 @@
 name = "lean_problem_solving"
 version = "0.1.0"
-defaultTargets = ["ProblemSolving", "hello_world", "a_plus_b", "sorting", "mispelling", "mispelling2", "easy_queries"]
+defaultTargets = ["ProblemSolving"]
 testDriver = "example_test"
 
 [[lean_lib]]
