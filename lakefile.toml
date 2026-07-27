@@ -1,6 +1,6 @@
 name = "lean_problem_solving"
 version = "0.1.0"
-defaultTargets = ["ProblemSolving", "hello_world", "a_plus_b", "sorting", "mispelling"]
+defaultTargets = ["ProblemSolving", "hello_world", "a_plus_b", "sorting", "mispelling", "mispelling2"]
 testDriver = "example_test"
 
 [[lean_lib]]
@@ -23,6 +23,10 @@ name = "mispelling"
 root = "examples.Mispelling"
 
 [[lean_exe]]
+name = "mispelling2"
+root = "examples.Mispelling2"
+
+[[lean_exe]]
 name = "example_test"
 root = "examples.tests.ExampleTest"
-needs = ["hello_world", "a_plus_b", "sorting", "mispelling"]
+needs = ["hello_world", "a_plus_b", "sorting", "mispelling", "mispelling2"]

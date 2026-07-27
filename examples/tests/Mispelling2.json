@@ -1,0 +1,10 @@
+[
+  {
+    "input": "Mispelling_1_in.txt",
+    "output": "Mispelling_1_out.txt"
+  },
+  {
+    "input": "Mispelling_2_in.txt",
+    "output": "Mispelling_2_out.txt"
+  }
+]
