@@ -1,6 +1,6 @@
 name = "lean_problem_solving"
 version = "0.1.0"
-defaultTargets = ["ProblemSolving", "hello_world", "a_plus_b"]
+defaultTargets = ["ProblemSolving", "hello_world", "a_plus_b", "sorting"]
 testDriver = "example_test"
 
 [[lean_lib]]
@@ -15,6 +15,10 @@ name = "a_plus_b"
 root = "examples.APlusB"
 
 [[lean_exe]]
+name = "sorting"
+root = "examples.Sorting"
+
+[[lean_exe]]
 name = "example_test"
 root = "examples.tests.ExampleTest"
-needs = ["hello_world", "a_plus_b"]
+needs = ["hello_world", "a_plus_b", "sorting"]
